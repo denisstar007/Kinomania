@@ -1,0 +1,136 @@
+.menu__bar li:nth-child(1) > a{
+   color: #fff;
+   font-size: 20px;
+}
+.menu__bar li:nth-child(1) > a:hover{
+   color: #aeb002;
+   font-size: 20px;
+}
+.site__content{
+   padding-top: 130px;
+}
+.info__film-page div{
+   display: inline-block;
+}
+.label{
+   font-size: 18px;
+   margin-right: 5px;
+   margin-top: 10px;
+}
+.value{
+   font-size: 18px;
+   color: #49945a;
+   margin: 0 5px;
+   padding-right: 15px;
+}
+.description__film {
+   display: flex;
+}
+.description__film span{
+   padding: 0 20px;
+}
+.description__film img{
+   border-radius: 5px;
+   border: 5px solid #dad7d5;
+}
+.reviews {
+   margin-bottom: 20px;
+   font-size: 18px;
+}
+.review {
+   background-color: #7268ad;
+   color: #fff;
+   padding: 10px 25px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.review__text {
+   padding: 15px 0 15px 40px;
+}
+.send {
+   margin-bottom: 20px;
+}
+.send input[type="text"], textarea{
+   border: 1px solid #c3c3c3;
+   margin-bottom: 20px;
+}
+.send input[type="text"]{
+   width: 98%;
+}
+.send textarea{
+   min-height: 200px;
+   width: 98%;
+}
+.send [type="submit"]{
+   background-color: #7268ad;
+   padding: 15px;
+   color: #fff;
+   border-radius: 10px;
+}
+
+
+
+@media all and (max-width: 992px){
+   .site__box iframe{
+      width: 100%;
+   }
+   .site__box h1, .site__box h2{
+      text-align: center;
+   }
+   .site__box{
+      margin-right: 0px;
+   }
+}
+
+@media all and (max-width: 850px){
+   .send [type="submit"]{
+      background-color: rgb(49, 179, 114);
+   }
+   .review {
+      background-color: rgb(49, 179, 114);
+   }
+}
+
+@media all and (max-width: 767px){
+   .site__content {
+      padding-top: 100px;
+   }
+   .menu__bar a {
+      font-size: 22px;
+      color: rgb(73, 73, 73);
+   }
+   .menu__bar li:nth-child(2) > a {
+      font-size: 22px;
+  }
+  .menu__bar li:nth-child(1) > a {
+      font-size: 22px;
+      color: rgb(73, 73, 73);
+   }
+}
+
+@media all and (max-width: 550px){
+   .site__box iframe{
+      height: 250px;
+   }
+   .description__film{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+   .description__film img{
+      margin-bottom: 15px;
+   }
+   .info__film-page{
+      text-align: center;
+   }
+}
+
+@media all and (max-width: 430px){
+   .site__box iframe{
+      height: 10%;
+   }
+   .site__box{
+      text-align: center;
+   }
+}
+

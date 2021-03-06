@@ -1,0 +1,134 @@
+.menu__bar li:nth-child(4) > a{
+   color: #aeb002;
+   font-size: 22px;
+}
+.menu__bar li:nth-child(1) > a{
+   color: #fff;
+   font-size: 20px;
+}
+
+.menu__bar li:hover:nth-child(1) > a{
+   color: #aeb002;
+}
+
+
+.rating__box-title {
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   text-align: center;
+   font-size: 24px;
+}
+.rating__box-film {
+   width: 70%;
+}
+.rating__box-year {
+   width: 30%;
+}
+.rating__box-rating {
+   width: 30%;
+}
+.ratings__box{
+   border: 2px solid #000;
+   margin: 20px 20px 20px 0;
+}
+.rating__box{
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2px;
+   border: 1px solid #000;
+}
+.rating__box-one {
+   display: flex;
+   border-right: 1px solid #000;
+   padding: 10px;
+}
+.rating__box-one img{
+   max-width: 59px;
+   background-position: center;
+}
+.rating__box-two {
+   border-right: 1px solid #000;
+   border-left: 1px solid #000;
+   margin-right: 2px;
+   margin-left: 2px;
+   width: 70%;
+   padding: 38px 0;
+   text-align: center;
+}
+.rating__box-two span{
+   color: rgb(76, 78, 78);
+   margin-right: 10px;
+}
+.rating__box-three {
+   border-right: 1px solid #000;
+   border-left: 1px solid #000;
+   margin-right: 2px;
+   width: 40%;
+   padding: 38px 0;
+   text-align: center;
+}
+.rating__box-four {
+   border-left: 1px solid #000;
+   margin-right: 2px;
+   width: 40%;
+   padding: 38px 0;
+   text-align: center;
+}
+
+
+
+
+@media all and (max-width: 992px){
+   .ratings__box{
+      margin-right: 0;
+   }
+}
+
+@media all and (max-width: 767px){
+   .menu__bar a {
+      font-size: 22px;
+      color: rgb(73, 73, 73);
+   }
+   .menu__bar li:nth-child(4) > a {
+      font-size: 26px;
+  }
+  .menu__bar li:nth-child(1) > a {
+      font-size: 22px;
+      color: rgb(73, 73, 73);
+   }
+}
+
+
+
+
+@media all and (max-width: 480px){
+   .rating__box{
+      font-size: 16px;
+   }
+   .rating__box-title {
+      font-size: 18px;
+   }
+   .rating__box-two,
+   .rating__box-three,
+   .rating__box-four {
+      padding: 40px 0;
+   }
+   .rating__box-two span{
+      margin-right: 1px;
+   }
+   .rating__box-two,
+   .rating__box-three,
+   .rating__box-four {
+      border-left: none;
+      margin: 0;
+   }
+   .rating__box-year {
+      width: 10%;
+  }
+}
+
+
+
